@@ -3,8 +3,8 @@ package std
 import (
 	"bytes"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runTCP "github.com/bdragon300/go-asyncapi/run/tcp"
+	"github.com/xcnt/go-asyncapi/run"
+	runTCP "github.com/xcnt/go-asyncapi/run/tcp"
 )
 
 func NewEnvelopeOut() *EnvelopeOut {

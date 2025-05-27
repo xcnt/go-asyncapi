@@ -4,15 +4,15 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bdragon300/go-asyncapi/internal/specurl"
+	"github.com/xcnt/go-asyncapi/internal/specurl"
 
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/types"
 
-	"github.com/bdragon300/go-asyncapi/internal/compiler"
+	"github.com/xcnt/go-asyncapi/internal/compiler"
 
 	"github.com/samber/lo"
 
-	"github.com/bdragon300/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/common"
 )
 
 type ObjectSource interface {

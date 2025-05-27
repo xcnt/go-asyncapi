@@ -54,8 +54,8 @@ package messages
 
 import (
 	encoding "myproject/encoding"
-	run "github.com/bdragon300/go-asyncapi/run"
-	kafka "github.com/bdragon300/go-asyncapi/run/kafka"
+	run "github.com/xcnt/go-asyncapi/run"
+	kafka "github.com/xcnt/go-asyncapi/run/kafka"
 )
 
 type MyMessagePayload string

@@ -1,6 +1,6 @@
 package render
 
-import "github.com/bdragon300/go-asyncapi/internal/common"
+import "github.com/xcnt/go-asyncapi/internal/common"
 
 type BaseType struct {
 	Name        string

@@ -1,7 +1,7 @@
 package render
 
 import (
-	"github.com/bdragon300/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/common"
 	j "github.com/dave/jennifer/jen"
 )
 

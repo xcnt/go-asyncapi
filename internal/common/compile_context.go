@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/bdragon300/go-asyncapi/internal/specurl"
+	"github.com/xcnt/go-asyncapi/internal/specurl"
 
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/types"
 
-	"github.com/bdragon300/go-asyncapi/internal/utils"
+	"github.com/xcnt/go-asyncapi/internal/utils"
 	"github.com/samber/lo"
 )
 

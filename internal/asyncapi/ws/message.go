@@ -3,9 +3,9 @@ package ws
 import (
 	"encoding/json"
 
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/render"
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/render"
+	"github.com/xcnt/go-asyncapi/internal/types"
 	"gopkg.in/yaml.v3"
 )
 

@@ -3,11 +3,11 @@ package asyncapi
 import (
 	"encoding/json"
 
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/render"
-	renderProto "github.com/bdragon300/go-asyncapi/internal/render/proto"
-	"github.com/bdragon300/go-asyncapi/internal/types"
-	"github.com/bdragon300/go-asyncapi/internal/utils"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/render"
+	renderProto "github.com/xcnt/go-asyncapi/internal/render/proto"
+	"github.com/xcnt/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/utils"
 	"gopkg.in/yaml.v3"
 )
 

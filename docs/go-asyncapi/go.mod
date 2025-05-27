@@ -1,4 +1,4 @@
-module github.com/bdragon300/go-asyncapi/docs/go-asyncapi
+module github.com/xcnt/go-asyncapi/docs/go-asyncapi
 
 go 1.21.5
 

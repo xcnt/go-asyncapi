@@ -9,8 +9,8 @@ import (
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runIP "github.com/bdragon300/go-asyncapi/run/ip"
+	"github.com/xcnt/go-asyncapi/run"
+	runIP "github.com/xcnt/go-asyncapi/run/ip"
 )
 
 var ErrUnexpectedIPVersion = errors.New("unexpected IP version")

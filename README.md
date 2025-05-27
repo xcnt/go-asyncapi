@@ -1,7 +1,7 @@
 # go-asyncapi
 
-![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/bdragon300/go-asyncapi)
-![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/bdragon300/go-asyncapi/go-test.yml?branch=master)
+![GitHub go.mod Go version (subdirectory of monorepo)](https://img.shields.io/github/go-mod/go-version/xcnt/go-asyncapi)
+![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/xcnt/go-asyncapi/go-test.yml?branch=master)
 
 [Documentation](https://bdragon300.github.io/go-asyncapi/)
 
@@ -31,7 +31,7 @@ Full list of features available on [Features](https://bdragon300.github.io/go-as
 ## Installation
 
 ```bash
-go install github.com/bdragon300/go-asyncapi/cmd/go-asyncapi@latest
+go install github.com/xcnt/go-asyncapi/cmd/go-asyncapi@latest
 ```
 
 ## Project versioning

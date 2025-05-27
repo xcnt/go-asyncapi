@@ -7,10 +7,10 @@ github.com/alexflint/go-scalar v1.2.0 h1:WR7JPKkeNpnYIOfHRa7ivM21aWAdHD0gEWHCx+W
 github.com/alexflint/go-scalar v1.2.0/go.mod h1:LoFvNMqS1CPrMVltza4LvnGKhaSpc3oyLEBUZVhhS2o=
 github.com/aymanbagabas/go-osc52/v2 v2.0.1 h1:HwpRHbFMcZLEVr42D4p7XBqjyuxQH5SMiErDT4WkJ2k=
 github.com/aymanbagabas/go-osc52/v2 v2.0.1/go.mod h1:uYgXzlJ7ZpABp8OJ+exZzJJhRNQ2ASbcXHWsFqH8hp8=
-github.com/bdragon300/go-asyncapi/run v0.0.0-20240206160622-70650acfcbf4 h1:XUk0x6+yfYurA7jT10epJ93VOM+T8jqKXc/ywu83PhI=
-github.com/bdragon300/go-asyncapi/run v0.0.0-20240206160622-70650acfcbf4/go.mod h1:DSG1ADgER0phh/2cvHa9j9ps7MtH0lOAilwt1wRej80=
-github.com/bdragon300/go-asyncapi/run v0.0.0-20240506123005-9ed51ac94fd3 h1:1cwB+Hx8SjjraRtXPLqR2WfO/+vNKWf/JEKMRQz1PZI=
-github.com/bdragon300/go-asyncapi/run v0.0.0-20240506123005-9ed51ac94fd3/go.mod h1:DSG1ADgER0phh/2cvHa9j9ps7MtH0lOAilwt1wRej80=
+github.com/xcnt/go-asyncapi/run v0.0.0-20240206160622-70650acfcbf4 h1:XUk0x6+yfYurA7jT10epJ93VOM+T8jqKXc/ywu83PhI=
+github.com/xcnt/go-asyncapi/run v0.0.0-20240206160622-70650acfcbf4/go.mod h1:DSG1ADgER0phh/2cvHa9j9ps7MtH0lOAilwt1wRej80=
+github.com/xcnt/go-asyncapi/run v0.0.0-20240506123005-9ed51ac94fd3 h1:1cwB+Hx8SjjraRtXPLqR2WfO/+vNKWf/JEKMRQz1PZI=
+github.com/xcnt/go-asyncapi/run v0.0.0-20240506123005-9ed51ac94fd3/go.mod h1:DSG1ADgER0phh/2cvHa9j9ps7MtH0lOAilwt1wRej80=
 github.com/bsm/ginkgo/v2 v2.12.0 h1:Ny8MWAHyOepLGlLKYmXG4IEkioBysk6GpaRTLC8zwWs=
 github.com/bsm/gomega v1.27.10 h1:yeMWxP2pV2fG3FgAODIY8EiRE3dy0aeFYt4l7wh6yKA=
 github.com/buger/jsonparser v1.1.1 h1:2PnMjfWD7wBILjqQbt530v576A/cAbQvEW9gGIpYMUs=

@@ -9,13 +9,13 @@ import (
 	"runtime/debug"
 	"strings"
 
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/types"
 
-	"github.com/bdragon300/go-asyncapi/internal/compiler"
+	"github.com/xcnt/go-asyncapi/internal/compiler"
 
-	"github.com/bdragon300/go-asyncapi/internal/utils"
+	"github.com/xcnt/go-asyncapi/internal/utils"
 
-	"github.com/bdragon300/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/common"
 	"github.com/dave/jennifer/jen"
 )
 

@@ -3,11 +3,11 @@ package tcp
 import (
 	"encoding/json"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi"
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/render"
-	renderTCP "github.com/bdragon300/go-asyncapi/internal/render/tcp"
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/render"
+	renderTCP "github.com/xcnt/go-asyncapi/internal/render/tcp"
+	"github.com/xcnt/go-asyncapi/internal/types"
 	"gopkg.in/yaml.v3"
 )
 

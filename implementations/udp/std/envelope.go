@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"net"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runUDP "github.com/bdragon300/go-asyncapi/run/udp"
+	"github.com/xcnt/go-asyncapi/run"
+	runUDP "github.com/xcnt/go-asyncapi/run/udp"
 )
 
 func NewEnvelopeOut() *EnvelopeOut {

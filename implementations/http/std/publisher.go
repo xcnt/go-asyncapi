@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	runHttp "github.com/bdragon300/go-asyncapi/run/http"
+	runHttp "github.com/xcnt/go-asyncapi/run/http"
 )
 
 func NewPublisher(bindings *runHttp.ChannelBindings, channelURL *url.URL) *Publisher {

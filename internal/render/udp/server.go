@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/render/proto"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/render/proto"
 	j "github.com/dave/jennifer/jen"
 )
 

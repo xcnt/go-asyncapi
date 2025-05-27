@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/url"
 
-	runHttp "github.com/bdragon300/go-asyncapi/run/http"
+	runHttp "github.com/xcnt/go-asyncapi/run/http"
 )
 
 func NewProducer(serverURL string, bindings *runHttp.ServerBindings) (*ProduceClient, error) {

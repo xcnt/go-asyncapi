@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runHttp "github.com/bdragon300/go-asyncapi/run/http"
+	"github.com/xcnt/go-asyncapi/run"
+	runHttp "github.com/xcnt/go-asyncapi/run/http"
 )
 
 func NewConsumer(bindings *runHttp.ServerBindings) (consumer *ConsumeClient, err error) {

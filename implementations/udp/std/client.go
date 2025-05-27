@@ -6,7 +6,7 @@ import (
 	"net"
 	"net/url"
 
-	runUDP "github.com/bdragon300/go-asyncapi/run/udp"
+	runUDP "github.com/xcnt/go-asyncapi/run/udp"
 )
 
 const DefaultMaxEnvelopeSize = 1024

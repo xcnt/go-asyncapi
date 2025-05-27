@@ -1,7 +1,7 @@
 package asyncapi
 
 import (
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/types"
 )
 
 type ComponentsItem struct {

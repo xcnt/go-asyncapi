@@ -3,8 +3,8 @@ package std
 import (
 	"context"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runHttp "github.com/bdragon300/go-asyncapi/run/http"
+	"github.com/xcnt/go-asyncapi/run"
+	runHttp "github.com/xcnt/go-asyncapi/run/http"
 )
 
 func NewSubscriber(bindings *runHttp.ChannelBindings) *Subscriber {

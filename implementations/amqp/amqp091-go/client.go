@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runAmqp "github.com/bdragon300/go-asyncapi/run/amqp"
+	"github.com/xcnt/go-asyncapi/run"
+	runAmqp "github.com/xcnt/go-asyncapi/run/amqp"
 	"github.com/rabbitmq/amqp091-go"
 )
 

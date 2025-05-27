@@ -3,8 +3,8 @@ package render
 import (
 	"github.com/samber/lo"
 
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/utils"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/utils"
 	"github.com/dave/jennifer/jen"
 )
 

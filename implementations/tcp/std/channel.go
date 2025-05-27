@@ -5,8 +5,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runTCP "github.com/bdragon300/go-asyncapi/run/tcp"
+	"github.com/xcnt/go-asyncapi/run"
+	runTCP "github.com/xcnt/go-asyncapi/run/tcp"
 )
 
 func NewChannel(conn *net.TCPConn, scanner *bufio.Scanner, maxEnvelopeSize int) *Channel {

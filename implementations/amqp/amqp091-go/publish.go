@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	runAmqp "github.com/bdragon300/go-asyncapi/run/amqp"
+	runAmqp "github.com/xcnt/go-asyncapi/run/amqp"
 
 	"github.com/rabbitmq/amqp091-go"
 )

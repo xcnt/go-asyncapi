@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	runRedis "github.com/bdragon300/go-asyncapi/run/redis"
+	runRedis "github.com/xcnt/go-asyncapi/run/redis"
 	"github.com/redis/go-redis/v9"
 )
 

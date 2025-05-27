@@ -1,11 +1,11 @@
-module github.com/bdragon300/go-asyncapi
+module github.com/xcnt/go-asyncapi
 
 go 1.20
 
 require (
 	github.com/BobuSumisu/aho-corasick v1.0.3
 	github.com/alexflint/go-arg v1.4.3
-	github.com/bdragon300/go-asyncapi/run v0.0.0-20240506123005-9ed51ac94fd3
+	github.com/xcnt/go-asyncapi/run v0.0.0-20240506123005-9ed51ac94fd3
 	github.com/buger/jsonparser v1.1.1
 	github.com/charmbracelet/log v0.4.0
 	github.com/dave/jennifer v1.7.0

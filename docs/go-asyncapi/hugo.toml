@@ -15,7 +15,7 @@ unsafe = true
 [menu]
 [[menu.after]]
 name = "GitHub"
-url = "https://github.com/bdragon300/go-asyncapi"
+url = "https://github.com/xcnt/go-asyncapi"
 weight = 10
 pre = '<div style="margin-top: 2rem"></div>&#x1F517;'
 

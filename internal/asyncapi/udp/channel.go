@@ -3,11 +3,11 @@ package udp
 import (
 	"encoding/json"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi"
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/render"
-	renderUDP "github.com/bdragon300/go-asyncapi/internal/render/udp"
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/render"
+	renderUDP "github.com/xcnt/go-asyncapi/internal/render/udp"
+	"github.com/xcnt/go-asyncapi/internal/types"
 	"gopkg.in/yaml.v3"
 )
 

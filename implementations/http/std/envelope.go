@@ -8,8 +8,8 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runHttp "github.com/bdragon300/go-asyncapi/run/http"
+	"github.com/xcnt/go-asyncapi/run"
+	runHttp "github.com/xcnt/go-asyncapi/run/http"
 )
 
 func NewEnvelopeOut() *EnvelopeOut {

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	runWs "github.com/bdragon300/go-asyncapi/run/ws"
+	runWs "github.com/xcnt/go-asyncapi/run/ws"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
 )

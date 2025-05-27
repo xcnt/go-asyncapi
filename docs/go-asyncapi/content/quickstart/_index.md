@@ -85,10 +85,10 @@ import (
   "os/signal"
   "time"
 
-  implWs "github.com/bdragon300/go-asyncapi/asyncapi/impl/ws"
-  "github.com/bdragon300/go-asyncapi/asyncapi/messages"
-  "github.com/bdragon300/go-asyncapi/asyncapi/servers"
-  runWs "github.com/bdragon300/go-asyncapi/run/ws"
+  implWs "github.com/xcnt/go-asyncapi/asyncapi/impl/ws"
+  "github.com/xcnt/go-asyncapi/asyncapi/messages"
+  "github.com/xcnt/go-asyncapi/asyncapi/servers"
+  runWs "github.com/xcnt/go-asyncapi/run/ws"
 )
 
 func main() {

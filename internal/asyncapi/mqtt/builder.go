@@ -1,7 +1,7 @@
 package mqtt
 
 import (
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi"
 )
 
 type ProtoBuilder struct {

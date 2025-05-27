@@ -10,31 +10,31 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bdragon300/go-asyncapi/internal/specurl"
+	"github.com/xcnt/go-asyncapi/internal/specurl"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/tcp"
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/udp"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/tcp"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/udp"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/ip"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/ip"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/redis"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/redis"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/ws"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/ws"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/mqtt"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/mqtt"
 
-	"github.com/bdragon300/go-asyncapi/implementations"
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/amqp"
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/http"
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi/kafka"
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/implementations"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/amqp"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/http"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi/kafka"
+	"github.com/xcnt/go-asyncapi/internal/types"
 	stdHTTP "net/http"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi"
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/compiler"
-	"github.com/bdragon300/go-asyncapi/internal/linker"
-	"github.com/bdragon300/go-asyncapi/internal/writer"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/compiler"
+	"github.com/xcnt/go-asyncapi/internal/linker"
+	"github.com/xcnt/go-asyncapi/internal/writer"
 	"github.com/samber/lo"
 	"golang.org/x/mod/modfile"
 )
@@ -60,7 +60,7 @@ type generatePubSubArgs struct {
 	ImplementationsOpts
 	AllowRemoteRefs bool `arg:"--allow-remote-refs" help:"Allow fetching spec files from remote $ref URLs"`
 
-	RuntimeModule         string        `arg:"--runtime-module" default:"github.com/bdragon300/go-asyncapi/run" help:"Runtime module name" placeholder:"MODULE"`
+	RuntimeModule         string        `arg:"--runtime-module" default:"github.com/xcnt/go-asyncapi/run" help:"Runtime module name" placeholder:"MODULE"`
 	FileResolverSearchDir string        `arg:"--file-resolver-search-dir" help:"Directory to search the local spec files for [default: current working directory]" placeholder:"PATH"`
 	FileResolverTimeout   time.Duration `arg:"--file-resolver-timeout" default:"30s" help:"Timeout for file resolver to resolve a spec file" placeholder:"DURATION"`
 	FileResolverCommand   string        `arg:"--file-resolver-command" help:"Custom file resolver executable to use instead of built-in resolver" placeholder:"PATH"`

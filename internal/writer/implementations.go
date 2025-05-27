@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/bdragon300/go-asyncapi/implementations"
-	"github.com/bdragon300/go-asyncapi/internal/utils"
+	"github.com/xcnt/go-asyncapi/implementations"
+	"github.com/xcnt/go-asyncapi/internal/utils"
 )
 
 func WriteImplementation(implDir, baseDir string) (int, error) {

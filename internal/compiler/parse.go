@@ -1,7 +1,7 @@
 package compiler
 
 import (
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi"
 )
 
 type SpecKind string

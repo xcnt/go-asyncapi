@@ -35,7 +35,7 @@ Full list of features available on [Features]({{< relref "/features" >}}) page.
 ## Installation
 
 ```bash
-go install github.com/bdragon300/go-asyncapi/cmd/go-asyncapi@latest
+go install github.com/xcnt/go-asyncapi/cmd/go-asyncapi@latest
 ```
 
 ## Project versioning

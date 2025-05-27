@@ -57,8 +57,8 @@ package channels
 import (
 	"context"
 	"errors"
-	run "github.com/bdragon300/go-asyncapi/run"
-	kafka "github.com/bdragon300/go-asyncapi/run/kafka"
+	run "github.com/xcnt/go-asyncapi/run"
+	kafka "github.com/xcnt/go-asyncapi/run/kafka"
 )
 
 func MyChannelName() run.ParamString {
@@ -145,8 +145,8 @@ package servers
 import (
 	"context"
 	channels "myproject/channels"
-	run "github.com/bdragon300/go-asyncapi/run"
-	kafka "github.com/bdragon300/go-asyncapi/run/kafka"
+	run "github.com/xcnt/go-asyncapi/run"
+	kafka "github.com/xcnt/go-asyncapi/run/kafka"
 )
 
 func MyServerURL() run.ParamString {

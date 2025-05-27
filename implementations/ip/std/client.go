@@ -6,7 +6,7 @@ import (
 	"net"
 	"net/url"
 
-	runIP "github.com/bdragon300/go-asyncapi/run/ip"
+	runIP "github.com/xcnt/go-asyncapi/run/ip"
 )
 
 const DefaultMaxEnvelopeSize = 1024

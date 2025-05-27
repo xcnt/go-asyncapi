@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strings"
 
-	runKafka "github.com/bdragon300/go-asyncapi/run/kafka"
+	runKafka "github.com/xcnt/go-asyncapi/run/kafka"
 
 	"github.com/twmb/franz-go/pkg/kgo"
 	"github.com/twmb/franz-go/pkg/kversion"

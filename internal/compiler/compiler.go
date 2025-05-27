@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/bdragon300/go-asyncapi/internal/specurl"
+	"github.com/xcnt/go-asyncapi/internal/specurl"
 
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/types"
 	"gopkg.in/yaml.v3"
 
-	"github.com/bdragon300/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/common"
 	"github.com/samber/lo"
 )
 

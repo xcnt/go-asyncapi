@@ -5,7 +5,7 @@ import (
 	"errors"
 	"sync"
 
-	runMqtt "github.com/bdragon300/go-asyncapi/run/mqtt"
+	runMqtt "github.com/xcnt/go-asyncapi/run/mqtt"
 	mqtt "github.com/eclipse/paho.mqtt.golang"
 )
 

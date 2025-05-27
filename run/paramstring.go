@@ -1,7 +1,7 @@
 package run
 
 import (
-	"github.com/bdragon300/go-asyncapi/run/3rdparty/uritemplates"
+	"github.com/xcnt/go-asyncapi/run/3rdparty/uritemplates"
 )
 
 type ParamString struct {

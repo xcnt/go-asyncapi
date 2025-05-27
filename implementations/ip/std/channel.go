@@ -9,8 +9,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runIP "github.com/bdragon300/go-asyncapi/run/ip"
+	"github.com/xcnt/go-asyncapi/run"
+	runIP "github.com/xcnt/go-asyncapi/run/ip"
 )
 
 func NewChannel(conn *net.IPConn, bufferSize int, remoteAddress net.Addr) *Channel {

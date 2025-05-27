@@ -4,7 +4,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/bdragon300/go-asyncapi/run"
+	"github.com/xcnt/go-asyncapi/run"
 )
 
 // Pub

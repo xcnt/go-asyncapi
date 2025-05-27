@@ -3,9 +3,9 @@ package render
 import (
 	"sort"
 
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/types"
-	"github.com/bdragon300/go-asyncapi/internal/utils"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/utils"
 	j "github.com/dave/jennifer/jen"
 	"github.com/samber/lo"
 )

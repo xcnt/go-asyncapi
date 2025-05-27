@@ -3,8 +3,8 @@ package gobwasws
 import (
 	"bytes"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runWs "github.com/bdragon300/go-asyncapi/run/ws"
+	"github.com/xcnt/go-asyncapi/run"
+	runWs "github.com/xcnt/go-asyncapi/run/ws"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
 )

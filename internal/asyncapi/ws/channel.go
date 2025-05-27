@@ -3,11 +3,11 @@ package ws
 import (
 	"encoding/json"
 
-	"github.com/bdragon300/go-asyncapi/internal/asyncapi"
-	"github.com/bdragon300/go-asyncapi/internal/common"
-	"github.com/bdragon300/go-asyncapi/internal/render"
-	renderWs "github.com/bdragon300/go-asyncapi/internal/render/ws"
-	"github.com/bdragon300/go-asyncapi/internal/types"
+	"github.com/xcnt/go-asyncapi/internal/asyncapi"
+	"github.com/xcnt/go-asyncapi/internal/common"
+	"github.com/xcnt/go-asyncapi/internal/render"
+	renderWs "github.com/xcnt/go-asyncapi/internal/render/ws"
+	"github.com/xcnt/go-asyncapi/internal/types"
 	"gopkg.in/yaml.v3"
 )
 

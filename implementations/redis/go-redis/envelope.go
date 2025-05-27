@@ -3,8 +3,8 @@ package goredis
 import (
 	"strings"
 
-	"github.com/bdragon300/go-asyncapi/run"
-	runRedis "github.com/bdragon300/go-asyncapi/run/redis"
+	"github.com/xcnt/go-asyncapi/run"
+	runRedis "github.com/xcnt/go-asyncapi/run/redis"
 	"github.com/redis/go-redis/v9"
 )
 
