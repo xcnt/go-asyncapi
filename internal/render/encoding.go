@@ -1,26 +1,28 @@
 package render
 
 import (
-	"strings"
-
 	"github.com/samber/lo"
 
+	j "github.com/dave/jennifer/jen"
 	"github.com/xcnt/go-asyncapi/internal/common"
 	"github.com/xcnt/go-asyncapi/internal/utils"
-	j "github.com/dave/jennifer/jen"
 )
 
 const encodingPackageName = "encoding"
 
 var encodingEncoders = map[string]j.Code{
-	"json": j.Op(`func(w io.Writer) Encoder`).Block(j.Return(j.Qual("encoding/json", "NewEncoder").Call(j.Id("w")))),
-	"yaml": j.Op(`func(w io.Writer) Encoder`).Block(j.Return(j.Qual("gopkg.in/yaml.v3", "NewEncoder").Call(j.Id("w")))),
+	"application/json":      j.Op(`func(w io.Writer) Encoder`).Block(j.Return(j.Qual("encoding/json", "NewEncoder").Call(j.Id("w")))),
+	"application/yaml":      j.Op(`func(w io.Writer) Encoder`).Block(j.Return(j.Qual("gopkg.in/yaml.v3", "NewEncoder").Call(j.Id("w")))),
+	"application/x-msgpack": j.Op(`func(w io.Writer) Encoder`).Block(j.Return(j.Qual("github.com/vmihailenco/msgpack/v5", "NewEncoder").Call(j.Id("w")))),
+	"text/plain":            j.Op(`func(w io.Writer) Encoder`).Block(j.Return(j.Qual("github.com/xcnt/client-go/pkg/text", "NewEncoder").Call(j.Id("w")))),
 	// TODO: add other encoders: protobuf, avro, etc.
 }
 
 var encodingDecoders = map[string]j.Code{
-	"json": j.Op(`func(r io.Reader) Decoder`).Block(j.Return(j.Qual("encoding/json", "NewDecoder").Call(j.Id("r")))),
-	"yaml": j.Op(`func(r io.Reader) Decoder`).Block(j.Return(j.Qual("gopkg.in/yaml.v3", "NewDecoder").Call(j.Id("r")))),
+	"application/json":      j.Op(`func(r io.Reader) Decoder`).Block(j.Return(j.Qual("encoding/json", "NewDecoder").Call(j.Id("r")))),
+	"application/yaml":      j.Op(`func(r io.Reader) Decoder`).Block(j.Return(j.Qual("gopkg.in/yaml.v3", "NewDecoder").Call(j.Id("r")))),
+	"application/x-msgpack": j.Op(`func(r io.Reader) Decoder`).Block(j.Return(j.Qual("github.com/vmihailenco/msgpack/v5", "NewDecoder").Call(j.Id("r")))),
+	"text/plain":            j.Op(`func(r io.Reader) Decoder`).Block(j.Return(j.Qual("github.com/xcnt/client-go/pkg/text", "NewDecoder").Call(j.Id("r")))),
 	// TODO: add other decoders: protobuf, avro, etc.
 }
 
@@ -141,10 +143,14 @@ func (e EncodingDecode) String() string {
 func getFormatByContentType(contentType string) string {
 	// TODO: add other formats: protobuf, avro, etc.
 	switch {
-	case strings.HasSuffix(contentType, "json"):
-		return "json"
-	case strings.HasSuffix(contentType, "yaml"):
-		return "yaml"
+	case contentType == "application/json":
+		return "application/json"
+	case contentType == "application/yaml":
+		return "application/yaml"
+	case contentType == "application/x-msgpack":
+		return "application/x-msgpack"
+	case contentType == "text/plain":
+		return "text/plain"
 	}
 	return ""
 }
